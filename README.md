@@ -10,7 +10,7 @@ ms ui
 - `npm run build:app` to build server code
 
 ### run
-`node build/main.js` then open *http://localhost:8885*
+`node build/main.js` then open *http://localhost:4005*
 
 ### login
 - id: admin
