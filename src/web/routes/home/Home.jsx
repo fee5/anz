@@ -6,7 +6,9 @@ export default class Home extends PureComponent {
   }
 
   componentDidMount() {
-    this.props.getLogs()
+    if(this.props.logs.length < 1) {
+      this.props.getLogs()
+    }
   }
 
   handleFilter = e => {
